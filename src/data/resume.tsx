@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon, SparklesIcon } from "lucide-react";
 export const DATA = {
   name: "Rajendra Singh Rao",
   initials: "RSR",
-  url: "https://heilcheng.github.io",
+  url: "https://rajendra0000.github.io/my-portfolio/",
   location: "Udaipur",
   locationLink: "https://www.google.com/maps/place/udaipur",
   description:
@@ -146,6 +146,37 @@ export const DATA = {
       ],
       image: "",
       video: "",
+    },
+    {
+      "title": "Interactive Personal Portfolio",
+      "href": "https://github.com/rajendra0000/my-portfolio",
+      "dates": "2024 - Present",
+      "active": true,
+      "description": "A modern, interactive portfolio demonstrating advanced frontend and 3D visualization skills. Features a functional Rubik's Cube solver, topological morphing, and a live GitHub contribution graph.",
+      "technologies": [
+        "Next.js 14 (App Router)",
+        "TypeScript",
+        "Three.js",
+        "React Three Fiber",
+        "Framer Motion",
+        "Tailwind CSS",
+        "GitHub Actions (CI/CD)",
+        "GraphQL"
+      ],
+      "links": [
+        {
+          "type": "Source",
+          "href": "https://github.com/rajendra0000/my-portfolio",
+          "icon": "<Icons.github className=\"size-3\" />"
+        },
+        {
+          "type": "Live Demo",
+          "href": "https://rajendra0000.github.io/my-portfolio/",
+          "icon": "<Icons.externalLink className=\"size-3\" />"
+        }
+      ],
+      "image": "",
+      "video": ""
     },
     {
       title: "Hotel Management System",

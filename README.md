@@ -1,6 +1,6 @@
 # My Personal Website
 
-Hey there! I am raj, Welcome to the codebase for my personal website. What started as a fork of the awesome [heilcheng](https://github.com/heilcheng/heilcheng.github.io) has grown into something I like to call my digital playground.
+Hey there! I am raj, Welcome to the codebase for my personal website.Still working on it!!
 
 This portfolio is built with Next.js, styled with Tailwind CSS, and brought to life with Three.js and Framer Motion. It's automatically deployed to GitHub Pages, so it's always up-to-date with my latest experiments.
 
@@ -66,8 +66,8 @@ If you like what you see and want to build your own version, feel free to use th
 Fork the repository and clone it to your local machine.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/heilcheng.github.io.git
-cd heilcheng.github.io
+git clone https://github.com/YOUR_USERNAME/my-portfolio.git
+cd my-portfolio
 ```
 
 ### 2. Install Dependencies

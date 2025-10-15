@@ -29,7 +29,7 @@ export function TableOfContents() {
   const handleNextSection = () => {
     if (hasViewedAllSections) {
       // Redirect to GitHub
-      window.open('https://github.com/heilcheng', '_blank');
+      window.open('https://github.com/rajendra0000/', '_blank');
       return;
     }
 
