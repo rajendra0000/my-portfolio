@@ -167,12 +167,12 @@ export const DATA = {
         {
           "type": "Source",
           "href": "https://github.com/rajendra0000/my-portfolio",
-          "icon": "<Icons.github className=\"size-3\" />"
+          "icon": <Icons.github className="size-3" />
         },
         {
           "type": "Live Demo",
           "href": "https://rajendra0000.github.io/my-portfolio/",
-          "icon": "<Icons.externalLink className=\"size-3\" />"
+          "icon": <Icons.globe className="size-3" />
         }
       ],
       "image": "",
