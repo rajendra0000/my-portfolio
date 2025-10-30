@@ -201,12 +201,12 @@ export const DATA = {
         {
           "type": "Source",
           "href": "https://github.com/rajendra0000/Board-Collab",
-          "icon": "<Icons.github className=\"size-3\" />"
+          "icon": <Icons.github className="size-3" />
         },
         {
           "type": "Live Demo",
-          "href": "https://board-collab.vercel.app/",
-          "icon": "<Icons.globe className=\"size-3\" />"
+          "href": "https://board-collab-smoky.vercel.app/",
+          "icon": <Icons.globe className="size-3" />
         }
       ],
       "image": "",
