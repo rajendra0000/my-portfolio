@@ -205,7 +205,7 @@ export const DATA = {
         },
         {
           "type": "Live Demo",
-          "href": "https://board-collab-smoky.vercel.app/",
+          "href": "https://collab-board-b3yr.vercel.app/",
           "icon": <Icons.globe className="size-3" />
         }
       ],
