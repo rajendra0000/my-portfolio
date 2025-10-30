@@ -179,6 +179,40 @@ export const DATA = {
       "video": ""
     },
     {
+      "title": "Board-Collab",
+      "href": "https://github.com/rajendra0000/Board-Collab",
+      "dates": "2024 - Present",
+      "active": true,
+      "description": "A real-time collaborative whiteboard web application that allows multiple users to draw, write, and annotate together. Features include live multi-user sync, email-based collaboration invites, and export options for saving boards.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Fabric.js",
+        "Firebase Firestore",
+        "Node.js",
+        "Express",
+        "Socket.io",
+        "Nodemailer",
+        "Tailwind CSS",
+        "Vercel",
+        "Render"
+      ],
+      "links": [
+        {
+          "type": "Source",
+          "href": "https://github.com/rajendra0000/Board-Collab",
+          "icon": "<Icons.github className=\"size-3\" />"
+        },
+        {
+          "type": "Live Demo",
+          "href": "https://board-collab.vercel.app/",
+          "icon": "<Icons.globe className=\"size-3\" />"
+        }
+      ],
+      "image": "",
+      "video": ""
+    },
+    {
       title: "Hotel Management System",
       href: "https://github.com/rajendra0000/hotel-management-system",
       dates: "2023 - 2024",
