@@ -99,7 +99,7 @@ export const DATA = {
   projects: [
     {
       title: "Pokémon Review API",
-      href: "https://github.com/rajendra0000/pokemon-review-api",
+      href: "https://github.com/rajendra0000/pokemon-api",
       dates: "2024 - Present",
       active: true,
       description:
@@ -114,7 +114,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/rajendra0000/pokemon-review-api",
+          href: "https://github.com/rajendra0000/pokemon-api",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -214,7 +214,7 @@ export const DATA = {
     },
     {
       title: "Hotel Management System",
-      href: "https://github.com/rajendra0000/hotel-management-system",
+      href: "https://github.com/rajendra0000/Hotel-management",
       dates: "2023 - 2024",
       active: false,
       description:
@@ -228,7 +228,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/rajendra0000/hotel-management-system",
+          href: "https://github.com/rajendra0000/Hotel-management",
           icon: <Icons.github className="size-3" />,
         },
       ],
