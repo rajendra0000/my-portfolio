@@ -53,8 +53,8 @@ export const DATA = {
       location: "Remote",
       title: "Web Development Intern",
       logoUrl: "/bharat.jpg",
-      start: "April 2024",
-      end: "June 2024",
+      start: "June 2025",
+      end: "December 2025",
       bullets: [
         "Completed a virtual internship focused on practical front-end web development projects.",
         "Developed responsive websites using HTML, CSS, and JavaScript, integrating public APIs for dynamic content.",
