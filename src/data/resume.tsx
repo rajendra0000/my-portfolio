@@ -10,8 +10,8 @@ export const DATA = {
   description:
     "A curious mind passionate about technology, creativity, and problem-solving. I love learning new things, exploring how ideas become real-world solutions, and building projects that inspire and create impact.",
   summary:
-  "I'm a Homo sapiens born and raised in India. I’ve always been curious about how things work — from gadgets and algorithms to the invisible systems that shape our daily lives. That curiosity slowly turned into a passion for creating, for understanding how ideas become real, and how technology can make life a little more meaningful.\n\nBefore diving deep into tech, I was that kid who loved exploring everything — sketching, solving puzzles, experimenting with random apps, and asking too many 'why' questions. Over time, I realized I wasn’t just fascinated by technology itself, but by what it could *do* — the way a few lines of logic could solve something real.\n\nAt some point, I found myself drawn toward building projects that blend creativity, problem-solving, and purpose — from environmental ideas to small digital experiments that make people think or smile. Each project taught me that learning is less about mastering something and more about exploring it deeply.\n\nAnd so, here I am — still learning, still building, and still chasing that feeling of discovery that comes with every new idea.\n\nWhen I’m not lost in a project, you’ll probably find me listening to music, journaling thoughts that turn into new ideas, or out exploring random places just to reset my mind. I believe every experience — big or small — adds a new line to who we’re becoming, and I’m excited to keep writing mine."
-,
+    "I'm a Homo sapiens born and raised in India. I’ve always been curious about how things work — from gadgets and algorithms to the invisible systems that shape our daily lives. That curiosity slowly turned into a passion for creating, for understanding how ideas become real, and how technology can make life a little more meaningful.\n\nBefore diving deep into tech, I was that kid who loved exploring everything — sketching, solving puzzles, experimenting with random apps, and asking too many 'why' questions. Over time, I realized I wasn’t just fascinated by technology itself, but by what it could *do* — the way a few lines of logic could solve something real.\n\nAt some point, I found myself drawn toward building projects that blend creativity, problem-solving, and purpose — from environmental ideas to small digital experiments that make people think or smile. Each project taught me that learning is less about mastering something and more about exploring it deeply.\n\nAnd so, here I am — still learning, still building, and still chasing that feeling of discovery that comes with every new idea.\n\nWhen I’m not lost in a project, you’ll probably find me listening to music, journaling thoughts that turn into new ideas, or out exploring random places just to reset my mind. I believe every experience — big or small — adds a new line to who we’re becoming, and I’m excited to keep writing mine."
+  ,
   avatarUrl: "/me.jpg",
 
   navbar: [
@@ -54,11 +54,12 @@ export const DATA = {
       title: "Web Development Intern",
       logoUrl: "/bharat.jpg",
       start: "June 2025",
-      end: "December 2025",
+      end: "July 2025",
       bullets: [
-        "Completed a virtual internship focused on practical front-end web development projects.",
-        "Developed responsive websites using HTML, CSS, and JavaScript, integrating public APIs for dynamic content.",
-        "Created UI clones of Netflix and Amazon to refine user interface design and responsiveness.",
+        "Completed a virtual internship focused on backend development using Java and Spring Boot, building scalable and production-ready services.",
+        "Developed RESTful APIs with Spring Boot, integrating relational databases and external APIs for dynamic data handling.",
+        "Implemented authentication, data validation, and secure API communication following industry best practices.",
+        "Designed modular and maintainable backend architectures, applying OOP principles and clean code practices."
       ],
     },
     {
@@ -71,10 +72,10 @@ export const DATA = {
       start: "June 2023",
       end: "Present",
       bullets: [
-        "Collaborate with clients across diverse domains to design and build custom web and mobile applications using modern technologies like React, Node.js, and Python.",
-        "Deliver end-to-end solutions from planning and prototyping to deployment and optimization ensuring scalability, performance, and clean UI/UX design.",
-        "Develop automation scripts and lightweight tools to improve client workflows, integrating APIs, databases, and third-party services.",
-        "Work closely with small teams and startups to transform ideas into production-ready digital products, maintaining almost 100% client satisfaction rate.",
+        "Developed scalable backend systems using Java, Spring Boot, and REST APIs with database integration.",
+        "Delivered end-to-end solutions including authentication, deployment, and performance optimization.",
+        "Integrated third-party APIs, messaging systems (Kafka/RabbitMQ), and Redis caching to enhance workflows.",
+        "Built production-ready applications for startups, ensuring performance, scalability, and client satisfaction."
       ],
     },
   ],
@@ -89,52 +90,31 @@ export const DATA = {
     },
     {
       school: "Kv no.1 udaipur",
-      href: "https://www.cbse.gov.in",
+      href: "https://no1udaipur.kvs.ac.in/",
       degree: "Senior Secondary Education (Class XII)\nFocused on Physics, Chemistry, and Mathematics.",
-      logoUrl: "/cbse.jpg",
+      logoUrl: "/kv1.jpg",
       start: "2020",
       end: "2022",
     },
   ],
   projects: [
     {
-      title: "Pokémon Review API",
-      href: "https://github.com/rajendra0000/pokemon-api",
-      dates: "2024 - Present",
-      active: true,
-      description:
-        "A RESTful API built with Spring Boot that allows users to post and manage Pokémon reviews. Features JWT-based authentication, CRUD operations, and PostgreSQL persistence with H2 in-memory testing for rapid deployment.",
-      technologies: [
-        "Spring Boot",
-        "Spring Data JPA",
-        "PostgreSQL",
-        "JWT",
-        "H2 Database",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/rajendra0000/pokemon-api",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Real-time Chat Application",
+      title: "SkibidiChat — Real-time Chat Platform",
       href: "https://github.com/rajendra0000/chat-app",
       dates: "2024 - Present",
       active: true,
       description:
-        "A real-time chat backend built with Spring Boot, RabbitMQ, and Redis for message queuing and caching. Integrated Twilio for OTP-based verification and MinIO for file storage, all orchestrated through Docker Compose.",
+        "A production-ready real-time chat platform built with Next.js 15 and Spring Boot 3.5. It features STOMP over WebSockets for live messaging, email OTP authentication, AI-powered chat with Groq, file sharing via Cloudinary, and scalable backend services with Redis, RabbitMQ, and PostgreSQL.",
       technologies: [
-        "Spring Boot",
+        "Next.js 15",
+        "Spring Boot 3.5",
+        "WebSocket",
+        "STOMP",
         "Redis",
         "RabbitMQ",
         "PostgreSQL",
-        "Twilio",
-        "MinIO",
+        "Cloudinary",
+        "Groq",
         "Docker",
       ],
       links: [
@@ -143,40 +123,14 @@ export const DATA = {
           href: "https://github.com/rajendra0000/chat-app",
           icon: <Icons.github className="size-3" />,
         },
+        {
+          type: "Live Demo",
+          href: "https://chat-app-indol-nu-13.vercel.app",
+          icon: <Icons.globe className="size-3" />
+        }
       ],
       image: "",
       video: "",
-    },
-    {
-      "title": "Interactive Personal Portfolio",
-      "href": "https://github.com/rajendra0000/my-portfolio",
-      "dates": "2024 - Present",
-      "active": true,
-      "description": "A modern, interactive portfolio demonstrating advanced frontend and 3D visualization skills. Features a functional Rubik's Cube solver, topological morphing, and a live GitHub contribution graph.",
-      "technologies": [
-        "Next.js 14 (App Router)",
-        "TypeScript",
-        "Three.js",
-        "React Three Fiber",
-        "Framer Motion",
-        "Tailwind CSS",
-        "GitHub Actions (CI/CD)",
-        "GraphQL"
-      ],
-      "links": [
-        {
-          "type": "Source",
-          "href": "https://github.com/rajendra0000/my-portfolio",
-          "icon": <Icons.github className="size-3" />
-        },
-        {
-          "type": "Live Demo",
-          "href": "https://rajendra0000.github.io/my-portfolio/",
-          "icon": <Icons.globe className="size-3" />
-        }
-      ],
-      "image": "",
-      "video": ""
     },
     {
       "title": "Board-Collab",
@@ -213,6 +167,116 @@ export const DATA = {
       "video": ""
     },
     {
+      "title": "Interactive Personal Portfolio",
+      "href": "https://github.com/rajendra0000/my-portfolio",
+      "dates": "2024 - Present",
+      "active": true,
+      "description": "A modern, interactive portfolio demonstrating advanced frontend and 3D visualization skills. Features a functional Rubik's Cube solver, topological morphing, and a live GitHub contribution graph.",
+      "technologies": [
+        "Next.js 14 (App Router)",
+        "TypeScript",
+        "Three.js",
+        "React Three Fiber",
+        "Framer Motion",
+        "Tailwind CSS",
+        "GitHub Actions (CI/CD)",
+        "GraphQL"
+      ],
+      "links": [
+        {
+          "type": "Source",
+          "href": "https://github.com/rajendra0000/my-portfolio",
+          "icon": <Icons.github className="size-3" />
+        },
+        {
+          "type": "Live Demo",
+          "href": "https://rajendra0000.github.io/my-portfolio/",
+          "icon": <Icons.globe className="size-3" />
+        }
+      ],
+      "image": "",
+      "video": ""
+    },
+    {
+      title: "PayPal Clone — Microservices Payment System",
+      href: "https://github.com/rajendra0000/paypal-clone-backend",
+      dates: "2024 - Present",
+      active: true,
+      description:
+        "A scalable payment backend built with Spring Boot microservices, featuring JWT-based authentication and Kafka-driven event workflows. Includes API Gateway, wallet management, transaction processing, rewards, and notification services.",
+      technologies: [
+        "Java 17",
+        "Spring Boot 3",
+        "Spring Security",
+        "JWT",
+        "Kafka",
+        "Spring Cloud Gateway",
+        "Docker",
+        "Maven",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/rajendra0000/paypal-clone-backend",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Smart Airport Ride Pooling System",
+      href: "https://github.com/rajendra0000/smart-airport-ride-pooling",
+      dates: "2024 - Present",
+      active: true,
+      description:
+        "A production-grade ride-pooling platform built with Spring Boot microservices, PostgreSQL/PostGIS, Redis, Kafka, and H3-based geospatial matching. Designed for fast driver allocation, real-time workflows, and observability.",
+      technologies: [
+        "Java 17",
+        "Spring Boot 3.2.5",
+        "PostgreSQL",
+        "PostGIS",
+        "Redis",
+        "Kafka",
+        "H3",
+        "Redisson",
+        "Docker",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/rajendra0000/smart-airport-ride-pooling",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Pokémon Review API",
+      href: "https://github.com/rajendra0000/pokemon-api",
+      dates: "2024 - Present",
+      active: true,
+      description:
+        "A RESTful API built with Spring Boot that allows users to post and manage Pokémon reviews. Features JWT-based authentication, CRUD operations, and PostgreSQL persistence with H2 in-memory testing for rapid deployment.",
+      technologies: [
+        "Spring Boot",
+        "Spring Data JPA",
+        "PostgreSQL",
+        "JWT",
+        "H2 Database",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/rajendra0000/pokemon-api",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
       title: "Hotel Management System",
       href: "https://github.com/rajendra0000/Hotel-management",
       dates: "2023 - 2024",
@@ -232,23 +296,6 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Climate & Fitness Awareness Websites",
-      href: "#",
-      dates: "2023",
-      active: false,
-      description:
-        "Developed as part of a web development internship, these websites integrate public APIs and feature responsive, interactive front-end design using HTML, CSS, and JavaScript.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "API Integration",
-      ],
-      links: [],
       image: "",
       video: "",
     },
